@@ -3,4 +3,18 @@
 
 This is an app designed to practice English pronunciation.
 
-It utilizes Gemma3 to generate English sentences (a maximum of three).  It then creates an English audio recording.  The app allows the user to record themselves reading the same sentence(s).  Finally, it enables a comparison of the original English audio with the user's recording, highlighting words where errors occurred.
+It utilizes Gemma3 to generate English sentences (maximum three). It then creates an English audio recording of these sentences, and allows the user to record themselves reading the same sentences (a maximum of three).  After recording, it allows for a comparison between the original English audio and the user's recording, highlighting the words where the user made mistakes.
+
+The model leverages libraries such as `langchain_ollama`, LangChain, Ollama, gTTS, and librosa, among others. The app is developed with Gradio as the user interface.
+
+The following libraries are required for implementing the app:
+
+* `langchain_ollama`
+* `langchain`
+* `librosa`
+* `matplotlib`
+* `pandas`
+* `gTTS`
+* `SpeechRecognition`
+* `pydub`
+* `gradio`
